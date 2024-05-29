@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#DB0000"/>
+    
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+    <link rel="manifest" href="./app.webmanifest">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"> 
+    <title>Restaurant Catalog</title>
+</head>
+<body>
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+  <!-- Header -->
+  <header role="banner">
+    <div class="logo">Hunger Apps</div>
+    <nav role="navigation">
+      <ul>
+        <li><a href="#/home">Home</a></li>
+        <li><a href="#/favorite">Favorite</a></li>
+        <li><a href="https://www.linkedin.com/in/faryotaa/">About Us</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" tabindex="0" aria-expanded="false" aria-controls="drawer-menu">&#9776;</button>
+  </header>
+    
+  <!-- Navigation Drawer -->
+  <nav id="drawer-menu" role="navigation">
+    <ul>
+      <li><a href="#/home">Home</a></li>
+      <li><a href="#/favorite">Favorite</a></li>
+      <li><a href="https://www.linkedin.com/in/faryotaa/">About Us</a></li>
+    </ul>
+  </nav>
+    
+  <!-- Main Content -->
+  <main id="main-content" role="main" tabindex="0">
+    <!-- Hero Element -->
+    <section class="hero">
+      <picture>
+        <source media="(max-width: 600px)" srcset="./images/heros/hero-image_2-small.jpg">
+        <img src="./images/heros/hero-image_2-large.jpg" alt="Restaurant Catalog">
+      </picture>
+      <div class="hero-position"></div>
+    </section>
+
+    <!-- Restaurant List -->
+    <section class="restaurant">
+        <h2 class="list-title">Restaurant List</h2>
+        <div class="restaurant-container">
+            <!-- Daftar restoran akan ditampilkan secara dinamis menggunakan JavaScript -->
+        </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <p>&copy; 2024 - Hunger Apps</p>
+  </footer>
+
+</body>
+</html>
